@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.venv/
+.env
+
+# Données locales
+data/raw/*
+data/processed/*
+
+# MLflow local (souvent ignoré)
+mlruns/
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/

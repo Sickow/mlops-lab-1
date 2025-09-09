@@ -1,0 +1,6 @@
+name: "svm"
+estimator: "sklearn.svm.SVC"
+params:
+  C: 1.0
+  kernel: "rbf"
+  probability: true

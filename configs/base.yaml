@@ -1,0 +1,28 @@
+paths:
+  raw: data/raw
+  processed: data/processed
+  models_dir: models/candidates
+  best_dir: models/best
+  reports_dir: reports/metrics
+
+data:
+  target: target
+  test_size: 0.3
+  random_state: 42
+
+features:
+  feature_engineering: true
+  numeric: []
+  categorical: []
+
+metrics:
+  primary: "f1"
+  others: ["precision", "recall", "roc_auc", "accuracy"]
+  pos_label: 1
+
+mlflow:
+  experiment_name: "lab1_multi_models"
+  tracking_uri: "file:./mlruns"
+
+run:
+  models: ["logreg", "random_forest", "svm"]
