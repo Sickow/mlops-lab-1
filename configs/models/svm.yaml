@@ -1,6 +1,7 @@
 name: "svm"
 estimator: "sklearn.svm.SVC"
-params:
-  C: 1.0
-  kernel: "rbf"
-  probability: true
+params: {}  # (laisser vide si tu utilises param_grid)
+param_grid:
+  - { C: 0.1, kernel: "linear", probability: true }
+  - { C: 1.0, kernel: "linear", probability: true }
+  - { C: 10.0, kernel: "rbf",    probability: true }

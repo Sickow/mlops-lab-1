@@ -1,0 +1,14 @@
+INFO:     Uvicorn running on http://127.0.0.1:5002 (Press CTRL+C to quit)
+INFO:     Started parent process [63568]
+INFO:     Started server process [63570]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [63571]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [63573]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Started server process [63572]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
